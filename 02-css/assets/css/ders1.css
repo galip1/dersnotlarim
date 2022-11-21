@@ -1,0 +1,10 @@
+.bas {
+  color: yellow;
+}
+.ara {
+  color: blue;
+  background-color: red !important;
+}
+p.paragraf {
+  background-color: blue;
+}
