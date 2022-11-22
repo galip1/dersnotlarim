@@ -1,10 +1,12 @@
-.bas {
-  color: yellow;
+.araBaslik {
+  color: pink;
+  background-color: darkgrey !important;
 }
-.ara {
-  color: blue;
-  background-color: red !important;
+
+h3.digerBaslik {
+  background-color: yellow;
 }
-p.paragraf {
-  background-color: blue;
+
+p.digerBaslik {
+  background-color: lightgrey;
 }
