@@ -1,0 +1,27 @@
+nav.menu {
+  background-color: cadetblue;
+  font-family: "Noto Serif Khojki", serif;
+  text-align: left;
+  width: 300px;
+}
+nav.menu ul {
+  list-style-type: "✨";
+  padding: 0;
+  list-style-position: inside;
+}
+nav.menu a {
+  text-decoration: none;
+  font-weight: 400px;
+  color: black;
+  padding: 0 0.5rem;
+}
+nav.menu a:visited {
+  color: black;
+}
+nav.menu a:hover {
+  background-color: cyan;
+  color: black;
+}
+nav.menu li {
+  padding: 0.3rem;
+}
