@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+section.container {
+  background-color: lightgray;
+  width: 60%;
+  margin: auto auto;
+}
+section {
+  border-radius: 15px;
+}
+img {
+  width: 100%;
+}
+h1 {
+  color: red;
+  padding: 1rem 0 0 1rem;
+  margin-top: 0;
+}
+.container p {
+  color: rgb(24, 22, 22);
+  font-size: 20px;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 1rem;
+}
+.container a:hover {
+  color: red;
+}
+.menu {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
