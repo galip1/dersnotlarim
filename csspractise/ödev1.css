@@ -1,0 +1,25 @@
+body {
+  background-image: url(/02-css/assets/img/resim4.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+h1,
+h3 {
+  background-color: aliceblue;
+  text-align: center;
+  margin-top: 0;
+}
+div {
+  width: 30%;
+  margin-top: 0;
+}
+.aylar {
+  background-color: burlywood;
+}
+.mevsimler {
+  background-color: blanchedalmond;
+}
+.yedigün {
+  background-color: chocolate;
+}
