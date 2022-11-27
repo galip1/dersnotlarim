@@ -1,0 +1,12 @@
+p::first-letter {
+  color: red;
+  font-weight: bold;
+}
+p::selection {
+  color: blueviolet;
+}
+
+li::marker {
+  color: brown;
+  font-size: 3rem;
+}

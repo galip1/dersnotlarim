@@ -1,0 +1,21 @@
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox label::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: solid 2px blue;
+  display: inline-block;
+  margin-right: 5px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label::before {
+  background-color: red;
+  border-radius: 3px;
+}
+.custom-checkbox {
+  user-select: none;
+}

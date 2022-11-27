@@ -1,0 +1,38 @@
+.menu {
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  background-color: rgb(122, 114, 103);
+  border-radius: 10px;
+  border: chocolate 3px solid;
+}
+.menu li {
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  border: solid 1px chocolate;
+}
+.fa-solid {
+  color: black;
+  border: solid 4px chocolate;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.fa-solid:hover + .menu {
+  display: block;
+  color: red;
+}
+.menu {
+  display: none;
+}
