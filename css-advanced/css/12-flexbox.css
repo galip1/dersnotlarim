@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.container div {
+  padding: 3rem;
+  background-color: green;
+  border: 5px solid black;
+}
+
+.container div:nth-child(1) {
+  background-color: red;
+  flex: 0 1 200px;
+}
+.container div:nth-child(2) {
+  background-color: rgb(70, 54, 54);
+  flex: 0 2 200px;
+}
+.container div:nth-child(3) {
+  background-color: rgb(32, 12, 12);
+}
+.container div:nth-child(4) {
+  background-color: rgb(255, 0, 170);
+}
