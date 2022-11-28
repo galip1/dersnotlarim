@@ -6,24 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/ödev4.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <table class="tablo">
-      <thead>
+      <thead><tr> 
         <th>Ürün Kodu</th>
         <th>Ürün Adı</th>
         <th>Miktar</th>
         <th>Birim Fiyat</th>
         <th>Ara Toplam</th>
         <th></th>
+      </tr>
       </thead>
+
+      <tbody>      
       <tr>
         <td>454565</td>
         <td>Notebook</td>
         <td>1</td>
         <td>5.400 tl</td>
         <td>5.400 tl</td>
-        <td></td>
+        <td>
+          <i class="fa-regular fa-pen-to-square"></i
+          ><i class="fa-solid fa-trash-can"></i>
+        </td>
       </tr>
       <tr>
         <td>855565</td>
@@ -31,7 +44,10 @@
         <td>2</td>
         <td>8 tl</td>
         <td>160 tl</td>
-        <td></td>
+        <td>
+          <i class="fa-regular fa-pen-to-square"></i
+          ><i class="fa-solid fa-trash-can"></i>
+        </td>
       </tr>
       <tr>
         <td>654564</td>
@@ -39,7 +55,10 @@
         <td>1</td>
         <td>700 tl</td>
         <td>700 tl</td>
-        <td></td>
+        <td>
+          <i class="fa-regular fa-pen-to-square"></i
+          ><i class="fa-solid fa-trash-can"></i>
+        </td>
       </tr>
       <tr>
         <td>878544</td>
@@ -47,7 +66,10 @@
         <td>2</td>
         <td>50 tl</td>
         <td>100 tl</td>
-        <td></td>
+        <td>
+          <i class="fa-regular fa-pen-to-square"></i
+          ><i class="fa-solid fa-trash-can"></i>
+        </td>
       </tr>
       <tr>
         <td>466644</td>
@@ -55,7 +77,10 @@
         <td>1</td>
         <td>2.500 tl</td>
         <td>2.500 tl</td>
-        <td></td>
+        <td>
+          <i class="fa-regular fa-pen-to-square"></i
+          ><i class="fa-solid fa-trash-can"></i>
+        </td>
       </tr>
       <tr>
         <td>878788</td>
@@ -63,13 +88,26 @@
         <td>3</td>
         <td>120 tl</td>
         <td>360 tl</td>
-        <td></td>
+        <td>
+          <i class="fa-regular fa-pen-to-square"></i>
+          <i class="fa-solid fa-trash-can"></i>
+        </td>
       </tr>
-      <tr>
+      <tfoot>
         <td colspan="4">TOPLAM</td>
         <td>9.220 tl</td>
         <td></td>
-      </tr>
+      </tbody>
+      </tfoot>
     </table>
+    <div class="btn">
+      <button>
+        <i class="fa-solid fa-cart-shopping"></i
+        ><a href="#">Alışverişe Devam</a>
+      </button>
+      <button>
+        <i class="fa-solid fa-credit-card"></i><a href="#">Ödemeye Geç</a>
+      </button>
+    </div>
   </body>
 </html>
