@@ -1,0 +1,29 @@
+:root {
+  --color1: aqua;
+  --color2: rgb(126, 108, 108);
+}
+.button-group {
+  display: flex;
+  gap: 2px;
+}
+.button-group button {
+  background-color: rgb(43, 41, 40);
+  color: var(--color1);
+  border: 2px solid var(--color1);
+  padding: 1rem;
+  cursor: pointer;
+  /* min-width: 100px; */
+  flex: 0 0 100px;
+  font-weight: bold;
+}
+.button-group button:first-child {
+  border-radius: 1rem 0 0 1rem;
+}
+.button-group button:last-child {
+  border-radius: 0 1rem 1rem 0;
+}
+.button-group button:hover {
+  background-color: green;
+  columns: var(--color2);
+  border: var(--color2);
+}

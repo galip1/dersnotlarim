@@ -1,0 +1,23 @@
+.banner {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 50vh;
+  background-size: 100px 100px;
+}
+.slider {
+  background-image: url("nature.jpg");
+  min-height: 30vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.slider1 {
+  background-size: contain;
+}
+.slider2 {
+  background-size: cover;
+  background-position: center center;
+}
+.slider3 {
+  background-attachment: fixed;
+}
