@@ -1,39 +1,8 @@
-:root {
-  --color1: red;
-  --color2: blue;
-  --color3: green;
-}
-body {
-  margin: 0;
-}
-nav.menu {
-  background-color: cadetblue;
-  border-radius: 50px;
-}
-nav.menu ul {
-  margin: 0;
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-}
-nav.menu li {
-  display: inline-block;
-  border-radius: 100px;
-  width: 15%;
-  padding: auto;
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
 
-  background-color: coral;
-}
-nav.menu li:hover {
-  background-color: green;
-}
-nav.menu a:hover {
-  color: black;
-  text-decoration: underline;
-}
-nav.menu a {
-  text-decoration: none;
-  font-size: 18px;
-  padding: 1.1rem;
-  display: inline-block;
+  transform: rotateX(10deg);
+  transform: scale(3, 3);
 }
